@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+</head>
+<body onload="draw();"> 
+    <form>
+        <p id="demo">Write or Drag and Drop your TXT files</p>
+        <textarea id="textarea" rows="10" cols="30" ></textarea><br>
+        <input id="save" type="submit" value="Save">
+        <input id="delete" type="reset" value="Clean">
+    </form>
+    <script src="./script.js"></script>
+    <script src="./local.js"></script>
+    <script src="./db.js"></script>
+    <script src="./canvas.js"></script>
+    <script src="./websocket.js"></script>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="blue" />
+     </svg> 
+     <canvas id="canvas" width="150" height="150"></canvas>
+
+     <h2>WebSocket Test</h2>
+
+     <div id="output"></div>
+
+</body>
+</html>
